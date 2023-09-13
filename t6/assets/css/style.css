@@ -1,7 +1,9 @@
 .news{
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     gap:10px;
+    width: 800px;
 }
 .news__item{
     border: 1px solid rgb(93, 90, 90);
@@ -18,4 +20,9 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 32px;
     text-align: center; 
+}
+.news__item-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
