@@ -1,0 +1,10 @@
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background:url('../assets/Снимок\ экрана\ 2023-09-12\ 101136.png') no-repeat center/cover;
+}
+.box__list{
+    display: flex;
+    flex-wrap: wrap;
+}
