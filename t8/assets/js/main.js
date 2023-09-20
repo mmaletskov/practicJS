@@ -16,6 +16,19 @@ function clik(r){
     }
 }
 
+function click(t){
+    if(t.type === "click"){
+        t.target.style.backgroundColor = "orange";
+    }
+}
+
+function dblclick(o){
+    if(o.type === "dblclick"){
+        o.target.style.backgroundColor = "darkblue";
+        o.target.style.color = "white";
+    }
+}
+
 let block = document.querySelector('.block');
 block.addEventListener("mouseover",setColor);
 block.addEventListener("mouseout",setColor);
@@ -24,3 +37,9 @@ block.addEventListener("mouseout",setColor);
 let button = document.querySelector('.button');
 button.addEventListener("mousedown",clik);
 button.addEventListener("mouseup",clik);
+
+let block__two = document.querySelector('.block__two');
+block__two.addEventListener("click",click);
+
+let block__three = document.querySelector('.block__three');
+block__three.addEventListener("dblclick",dblclick);

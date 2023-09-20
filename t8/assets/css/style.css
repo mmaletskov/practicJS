@@ -8,5 +8,17 @@
     width: 200px;
     height: 100px;
     border: 1px solid black;
+    margin-bottom: 10px;
    
+}
+.block__two{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.block__three{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
 }
