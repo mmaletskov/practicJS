@@ -29,6 +29,12 @@ function dblclick(o){
     }
 }
 
+function contextMenu(p){
+    if(p.type === "contextmenu"){
+        p.target.style.backgroundColor = "darkgreen";
+    }
+}
+
 let block = document.querySelector('.block');
 block.addEventListener("mouseover",setColor);
 block.addEventListener("mouseout",setColor);
@@ -43,3 +49,15 @@ block__two.addEventListener("click",click);
 
 let block__three = document.querySelector('.block__three');
 block__three.addEventListener("dblclick",dblclick);
+
+let block__four = document.querySelector('.block__four');
+
+const setBg = () => {
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+    block__four.style.backgroundColor = "#" + randomColor;
+}
+block__four.addEventListener('mousemove', setBg)
+
+
+let block__five = document.querySelector('.block__five');
+block__five.addEventListener("contextmenu",contextMenu);

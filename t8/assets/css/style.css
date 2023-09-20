@@ -21,4 +21,16 @@
     width: 200px;
     height: 100px;
     border: 1px solid black;
+    margin-bottom: 10px;
+}
+.block__four{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.block__five{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
 }
