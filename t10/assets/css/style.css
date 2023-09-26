@@ -1,0 +1,14 @@
+#input1,#input2{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+
+#inputs{
+    width: 200px;
+    margin: 50px auto;
+    text-align: center;
+}

@@ -3,39 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" defer ></script>
     <title>Document</title>
 </head>
 <body>
-    <input type="text" id="input1">
-    <input type="submit" id="button" disabled>
-    <p id="err"></p>
+    <form id="inputs" onsubmit="return false">
 
-    <script>
-        let isErr;
-        const input = document.getElementById('input1');
-        const button = document.getElementById('button');
-        const err = document.getElementById('err');
+        <p id="err"></p>
+        <div class="input_box">
+            <input type="text" id="input1" >
+        </div>
+        <div class="input_box">
+            <input type="text" id="input2" >
+        </div>
+       <div class="input_box">
+            <input type="submit" value="Отправить" id="button">
+       </div>
 
-        document.addEventListener('keyup',function(){
-                if(input.value.length <= 2){
-                    // console.log('не менее двух');
-                    input.style.boxShadow = '0 0 5px 2px red';
-                    err.textContent = 'не менее двух';
-                    isErr = true;
-                }
-                else{
-                    input.style.boxShadow = '0 0 5px 2px green';
-                    err.textContent = '';
-                    isErr = false;
-                }
-
-                if(isErr == true){
-                    button.setAttribute("disabled","disabled")
-                }
-                if(isErr == false){
-                    button.removeAttribute("disabled","disabled")
-                }
-        })
-    </script>
+       <a href="" id="link"></a>
+       
+      
+    </form>
+    
 </body>
 </html>
