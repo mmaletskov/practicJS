@@ -1,6 +1,7 @@
 const timeblock = document.querySelector(".time_block"),
 timebtn = document.querySelector('.open'),
 countEL = document.querySelector('.count');
+cont = document.querySelector('.content');
 setTimeout(()=>{
     countfull();
 },3000);

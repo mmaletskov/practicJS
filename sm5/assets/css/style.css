@@ -1,7 +1,11 @@
 *{
     font-family: 'Montserrat Alternates', sans-serif;
 }
-.content{
+.container{
+    text-align: center;
+}
+.time_block{
+    display: none;
     text-align: center;
     background-color: aqua;
     max-width: 200px;
@@ -12,14 +16,16 @@
 .count{
     padding: 10px 0;
 }
-.time_block{
-    padding-bottom: 10px;
-}
 .open{
-    text-align: center;
+    display: none;
+    max-width: 400px;
+    margin: 0 auto;
     background-color: black;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
+}
+.active{
+    display: block;
 }
