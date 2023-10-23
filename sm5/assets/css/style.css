@@ -1,0 +1,25 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.content{
+    text-align: center;
+    background-color: aqua;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.count{
+    padding: 10px 0;
+}
+.time_block{
+    padding-bottom: 10px;
+}
+.open{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}

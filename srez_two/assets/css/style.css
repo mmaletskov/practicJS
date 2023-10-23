@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.container{
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/* header */
+.header{
+    width: 100%;
+    background-color: rgb(172, 170, 168);
+    padding: 30px 0;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 350px;
+}
+.logo{
+    background-color: white;
+    text-align: center;
+    padding: 20px 10px;
+    width: 100px;
+    border-radius: 10px;
+}
+.menu__list{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 50px;
+}
+
+.menu__item{
+    position: relative;
+}
+.sub__menu{
+    display: none;
+    position: absolute;
+    background-color: rgb(110, 113, 113);
+    /* padding: 20px 30px; */
+    width: 200px;
+    left: -10px;
+    border-radius: 10px;
+}
+.sub__menu-item{
+    display: block;
+    width: 100%;
+    font-size: 15px; 
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.sub__menu-item:hover{
+    background-color: aquamarine;
+}
+/* header-end */
+
+/* main */
+main{
+    width: 100%;
+}
+
+/* slider */
+.slider__container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.slider__inner-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 50px 0;
+}
+.slider__slider-item{
+    background-color: rgb(255, 240, 240);
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 500px;
+    height: 150px;
+    color: rgb(76, 73, 73);
+    margin: 0 auto;
+    text-align: center;
+}
+/* slider-end */
+
+
+/* accordion */
+.accordion__inner-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 50px 0;
+}
+.accordion__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.accordion__menu-inner{
+    flex: 0 0 250px;
+}
+.menu__title{
+    display: flex;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    padding: 20px 40px;
+    background-color: rgb(205, 220, 220);
+}
+.menu__text{
+    display: none;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    padding: 20px 30px;
+    background-color: rgb(205, 220, 220);
+}
+.show{
+    display: block;
+}
+/* accordion-end */
+
+/* main-end */
+
+
